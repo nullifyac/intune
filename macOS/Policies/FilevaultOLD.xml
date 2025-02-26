@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>PayloadContent</key>
+		<array>
+			<dict>
+				<key>DeferForceAtUserLoginMaxBypassAttempts</key>
+				<integer>-1</integer>
+				<key>Enable</key>
+				<string>On</string>
+				<key>ForceEnableInSetupAssistant</key>
+				<true/>
+				<key>OutputPath</key>
+				<string>"https://portal.manage.microsoft.com"</string>
+				<key>PayloadDisplayName</key>
+				<string>FileVault-SA</string>
+				<key>PayloadIdentifier</key>
+				<string>com.apple.MCX.FileVault2.ED155FB6</string>
+				<key>PayloadType</key>
+				<string>com.apple.MCX.FileVault2</string>
+				<key>PayloadUUID</key>
+				<string>E0BC271E-6339-4338-BB4D</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+				<key>UserEntersMissingInfo</key>
+				<false/>
+			</dict>
+		</array>
+		<key>PayloadDescription</key>
+		<string>Enable Filevault in Setup Assistant</string>
+		<key>PayloadDisplayName</key>
+		<string>filevault2</string>
+		<key>PayloadIdentifier</key>
+		<string>IRL.BB074437-36A8-4AE5-A82F-D9062972B3FD</string>
+		<key>PayloadOrganization</key>
+		<string>IRL</string>
+		<key>PayloadScope</key>
+		<string>System</string>
+		<key>PayloadType</key>
+		<string>Configuration</string>
+		<key>PayloadUUID</key>
+		<string>23524AC4-F0E0-4B0D-ADC1-D75AC20D34BF</string>
+		<key>PayloadVersion</key>
+		<integer>1</integer>
+		<key>TargetDeviceType</key>
+		<integer>5</integer>
+	</dict>
+</plist>

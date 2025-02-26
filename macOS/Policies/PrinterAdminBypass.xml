@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>PayloadContent</key>
+    <array>
+      <dict>
+        <key>PayloadType</key>
+        <string>com.apple.security</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadIdentifier</key>
+        <string>com.company.printeradminbypass</string>
+        <key>PayloadUUID</key>
+        <string>12345678-1234-1234-1234-1234567890AB</string>
+        <key>PayloadDisplayName</key>
+        <string>Printer Admin Bypass</string>
+        <key>PayloadDescription</key>
+        <string>Allows non-admin users to add printers without requiring an admin password.</string>
+        <key>PayloadOrganization</key>
+        <string>Your Organization</string>
+        <key>RequireAdminToAddPrinters</key>
+        <false/>
+      </dict>
+    </array>
+    <key>PayloadIdentifier</key>
+    <string>com.company.printeradminbypass</string>
+    <key>PayloadUUID</key>
+    <string>12345678-1234-1234-1234-1234567890AB</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadDisplayName</key>
+    <string>Printer Admin Bypass Configuration</string>
+  </dict>
+</plist>

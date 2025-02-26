@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>PayloadContent</key>
+        <array>
+            <dict>
+                <!-- Defer enabling FileVault until the next logout/login -->
+                <key>Defer</key>
+                <false/>
+
+                <!-- Set the maximum bypass attempts to 3 for flexibility (change to -1 to disable bypassing) -->
+                <key>DeferForceAtUserLoginMaxBypassAttempts</key>
+                <integer>-1</integer>
+
+                <!-- Enable FileVault -->
+                <key>Enable</key>
+                <string>On</string>
+
+                <!-- Force FileVault to enable during Setup Assistant (for devices in DEP) -->
+                <key>ForceEnableInSetupAssistant</key>
+                <true/>
+
+                <!-- The path to save the recovery key locally before it is uploaded to Intune -->
+                <key>OutputPath</key>
+                <string>/Library/FileVaultKey.plist</string>
+
+                <!-- Use a personal recovery key (recommended for most Intune scenarios) -->
+                <key>UseRecoveryKey</key>
+                <true/>
+
+                <!-- Hide the recovery key from the user to ensure it is securely stored in Intune -->
+                <key>ShowRecoveryKey</key>
+                <false/>
+
+                <!-- Ensure missing user information is not prompted for -->
+                <key>UserEntersMissingInfo</key>
+                <false/>
+
+                <!-- FileVault payload details -->
+                <key>PayloadDisplayName</key>
+                <string>FileVault-SA</string>
+                <key>PayloadIdentifier</key>
+                <string>com.apple.MCX.FileVault2.ED155FB6</string>
+                <key>PayloadType</key>
+                <string>com.apple.MCX.FileVault2</string>
+                <key>PayloadUUID</key>
+                <string>E0BC271E-6339-4338-BB4D</string>
+                <key>PayloadVersion</key>
+                <integer>1</integer>
+            </dict>
+        </array>
+
+        <!-- General configuration profile details -->
+        <key>PayloadDescription</key>
+        <string>Enable FileVault during Setup Assistant or at next login</string>
+        <key>PayloadDisplayName</key>
+        <string>FileVault2</string>
+        <key>PayloadIdentifier</key>
+        <string>IRL.BB074437-36A8-4AE5-A82F-D9062972B3FD</string>
+        <key>PayloadOrganization</key>
+        <string>IRL</string>
+        <key>PayloadScope</key>
+        <string>System</string>
+        <key>PayloadType</key>
+        <string>Configuration</string>
+        <key>PayloadUUID</key>
+        <string>23524AC4-F0E0-4B0D-ADC1-D75AC20D34BF</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+
+        <!-- Target device type (optional) -->
+        <key>TargetDeviceType</key>
+        <integer>5</integer>
+    </dict>
+</plist>
